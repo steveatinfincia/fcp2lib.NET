@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{000DF136-4B0F-4DAF-9B4E-075CD3648E1B}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>fcp2lib.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\AllDataEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\CloseConnectionDuplicateClientNameEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\CompatibilityModeEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\ConfigDataEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\DataFoundEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\EndListPeerNotesEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\EndListPeersEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\EndListPersistentRequestsEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\EnterFiniteCooldownEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\EnumExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\ExpectedDataLengthEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\ExpectedHashesEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\ExpectedMIMEEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\FCPPluginReplyEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\FinishedCompressionEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\GeneratedMetadataEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\GetFailedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\IdentifierCollisionEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\NodeDataEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\NodeHelloEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PeerEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PeerNoteEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PeerRemovedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PersistentGetEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PersistentPutDirEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PersistentPutEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PersistentRequestModifiedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PersistentRequestRemovedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PluginInfoEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PluginRemovedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\ProtocolErrorEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PutFailedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PutFetchableEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\PutSuccessfulEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\SSKKeypairEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\SendingToNetworkEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\SimpleProgressEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\StartedCompressionEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\SubscribedUSKEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\SubscribedUSKUpdateEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\TestDDACompleteEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\TestDDAReplyEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\URIGeneratedEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\UnknownNodeIdentifierEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EventArgs\UnknownPeerNoteTypeEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keys\ContentHashKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keys\FCP2Key.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keys\KeywordSignedKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keys\SignedSubspaceKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Keys\UpdateableSubspaceKey.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\DynamicReturnValue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\Enums.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\FCP2Client.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\FCP2Download.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\FCP2Protocol.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\FCP2Upload.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\InsertItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\MessageParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\MessageParserSubElement.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\MixedReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Protocol\MixedWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)FCPClient.cs" />
+  </ItemGroup>
+</Project>
